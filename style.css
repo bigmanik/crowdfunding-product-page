@@ -1,0 +1,94 @@
+ @import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@200;400;500;700&family=Outfit:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Commissioner', sans-serif;
+    background-color: whitesmoke ;
+    
+}
+header{
+    height:350px ;
+    width: auto;
+    background-image: url( "../resources/image-hero-desktop.jpg");
+    background-repeat: no-repeat;
+    /* position: relative; */
+    background-size: cover;
+    /* display: flex;
+    justify-content: flex-end; */
+    
+
+}
+header ul #logo{
+ float: left;
+ padding-top: 38px;
+ position: relative;
+ padding-left: 10%;
+ color: white;
+ 
+
+}
+header ul{
+    overflow: hidden;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+header li a{
+    display: block;
+    padding: 25px; 
+    float: right;
+    text-decoration: none;
+    color: white;
+    
+}
+
+header ul .h-t{
+    font-weight: 300;
+    font-size: small;
+    top: 20px;
+    position: relative;  
+    padding-right: 10%; 
+    letter-spacing: -1px;
+   
+}
+.btn-a {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #57cc99;
+    background: #57cc99;
+  }
+  .btn-a:hover {
+    background: #fff;
+    color: #57cc99
+  }
+   
+.box-a{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 40px;
+    width:700px;
+    height: 350px;
+    background-color: white;
+    margin-left: 23%;
+
+   
+    
+
+    
+
+}
+
