@@ -56,17 +56,19 @@ header ul .h-t{
    
 }
 .btn-a {
-    min-width: 130px;
-    height: 40px;
+    min-width: 200px;
+    height: 50px;
     color: #fff;
     padding: 5px 10px;
+    margin-right: 250px;
+    top: -25px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
     outline: none;
-    border-radius: 20px;
+    border-radius: 30px;
     border: 2px solid #57cc99;
     background: #57cc99;
   }
@@ -103,5 +105,21 @@ header ul .h-t{
     color:  hsl(0, 0%, 48%);
     top: -10px;
     position: inherit;
+}
+.btn-b{
+    /* height: ; */
+    /* padding: 5px 10px */
+   
+    min-width: 150px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    
+}
+.book-mark{
+    top: -10px;
+    left: 0;
+    position: relative;
+    margin-right: 95px;
 }
 
