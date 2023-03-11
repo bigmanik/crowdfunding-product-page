@@ -55,13 +55,16 @@ header ul .h-t{
     letter-spacing: -1px;
    
 }
+.btn-z{
+    display: flex;
+}
 .btn-a {
     min-width: 200px;
     height: 50px;
     color: #fff;
     padding: 5px 10px;
     margin-right: 250px;
-    top: -25px;
+    top: -8px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -69,12 +72,12 @@ header ul .h-t{
     display: inline-block;
     outline: none;
     border-radius: 30px;
-    border: 2px solid #57cc99;
-    background: #57cc99;
+    border: 2px solid hsl(176, 72%, 28%);
+    background-color: hsl(176, 72%, 28%);
   }
   .btn-a:hover {
     background: #fff;
-    color: #57cc99
+    color: hsl(176, 72%, 28%);
   }
    
 .box-a{
@@ -114,12 +117,13 @@ header ul .h-t{
     height: 40px;
     border: 1px solid transparent;
     border-radius: 25px;
+   
     
 }
 .book-mark{
     top: -10px;
     left: 0;
     position: relative;
-    margin-right: 95px;
+    margin-right: -30px;
 }
 
