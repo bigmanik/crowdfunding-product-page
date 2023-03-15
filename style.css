@@ -82,7 +82,7 @@ header ul .h-t{
    
 .box-a{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center; 
     /* padding: 40px; */
     padding-bottom: 40px;
@@ -126,4 +126,20 @@ header ul .h-t{
     position: relative;
     margin-right: -30px;
 }
-
+.m-btn {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .m-btn.selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
