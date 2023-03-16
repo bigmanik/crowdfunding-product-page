@@ -34,15 +34,17 @@ function toggleBookmark() {
     });
   });
 
-  const modal = document.querySelector('#modal-a');
+  const modal = document.querySelector('.modal-a');
   const openModal = document.querySelector('.btn-a');
   const closeModal = document.querySelector('.close-m1');
 
   openModal.addEventListener('click', () =>{
     modal.showModal();
+    modal.style.display = "flex";
   })
   closeModal.addEventListener('click', () =>{
     modal.close();
+    modal.style.display ="none"
   })
   
 

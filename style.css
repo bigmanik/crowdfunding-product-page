@@ -143,15 +143,16 @@ header ul .h-t{
     color: #fff;
   }
   .modal-a{
-    display: flex;
+    display: none;
     flex-direction: column;
-    /* justify-content: center; */
    margin-left: 300px;
    margin-top: 170px;
    border: 1px solid transparent;
    border-radius: 15px;
-   
     position: relative;
     padding: 25px 25px;
   }
+  /* .modal-a .close-m1{
+justify-items: flex-end;
+  } */
   
