@@ -128,10 +128,10 @@ header ul .h-t{
 }
 .m-btn {
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     text-align: center;
     line-height: 20px;
     cursor: pointer;
@@ -139,7 +139,19 @@ header ul .h-t{
   }
   
   .m-btn.selected {
-    background-color: #007bff;
+    background-color: hsl(176, 72%, 28%);
     color: #fff;
+  }
+  .modal-a{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+   margin-left: 300px;
+   margin-top: 170px;
+   border: 1px solid transparent;
+   border-radius: 15px;
+   
+    position: relative;
+    padding: 25px 25px;
   }
   

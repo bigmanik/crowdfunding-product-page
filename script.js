@@ -23,16 +23,27 @@ function toggleBookmark() {
     }
   }
   
-  // const radioButtons = document.querySelectorAll('.radio-button');
+  const radioButtons = document.querySelectorAll('.m-btn');
 
-  // radioButtons.forEach(button => {
-  //   button.addEventListener('click', () => {
-  //     radioButtons.forEach(btn => {
-  //       btn.classList.remove('selected');
-  //     });
-  //     button.classList.add('selected');
-  //   });
-  // });
+  radioButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      radioButtons.forEach(btn => {
+        btn.classList.remove('selected');
+      });
+      button.classList.add('selected');
+    });
+  });
+
+  const modal = document.querySelector('#modal-a');
+  const openModal = document.querySelector('.btn-a');
+  const closeModal = document.querySelector('.close-m1');
+
+  openModal.addEventListener('click', () =>{
+    modal.showModal();
+  })
+  closeModal.addEventListener('click', () =>{
+    modal.close();
+  })
   
 
   
