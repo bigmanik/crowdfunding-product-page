@@ -84,7 +84,6 @@ header ul .h-t{
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    /* padding: 40px; */
     padding-bottom: 40px;
     padding-left: 40px;
     padding-right: 40px;
@@ -99,7 +98,6 @@ header ul .h-t{
 
 }
 .logo-master{
-    /* margin-bottom: ; */
     top: -30px;
     position: inherit;
 }
@@ -110,15 +108,10 @@ header ul .h-t{
     position: inherit;
 }
 .btn-b{
-    /* height: ; */
-    /* padding: 5px 10px */
-   
     min-width: 150px;
     height: 40px;
     border: 1px solid transparent;
-    border-radius: 25px;
-   
-    
+    border-radius: 25px;  
 }
 .book-mark{
     top: -10px;
@@ -152,7 +145,55 @@ header ul .h-t{
     position: relative;
     padding: 25px 25px;
   }
-  /* .modal-a .close-m1{
-justify-items: flex-end;
-  } */
+  .modal-a .close-m1{
+    margin-left: 98%;
+  }
+  #xx{
+    fill: #000;
+  }
+  #xx:hover{
+    fill: black;
+  }
+   
+  .back-h{
+    margin-bottom: 10px;
+  }
+  .small-h{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color:hsl(0, 0%, 48%) ;
+  }
+  .t-a-1 {
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    padding: 25px 25px;
+
+  }
+  .m-btn{
+    margin-right: 20px;
+  }
+  .small-i{
+    color: hsl(176, 72%, 28%) ;
+    font-weight: 500;
+  }
+  .small-ia{
+    font-size: 14px;
+    padding-right: 10px;
+    color: hsl(0, 0%, 48%);
+  }
+  .t-a-2{
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    padding: 25px 25px;
+  }
+  .small-j{
+    color: hsl(176, 72%, 28%) ;
+    font-weight: 500;
+  }
+  .small-ja{
+    font-size: 14px;
+    padding-right: 10px;
+    color: hsl(0, 0%, 48%);
+  }
   
