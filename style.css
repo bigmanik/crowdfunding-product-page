@@ -144,6 +144,7 @@ header ul .h-t{
    border-radius: 15px;
     position: relative;
     padding: 25px 25px;
+    height: fit-content;
   }
   .modal-a .close-m1{
     margin-left: 98%;
@@ -168,6 +169,8 @@ header ul .h-t{
     border: 2px solid lightgray;
     border-radius: 15px;
     padding: 25px 25px;
+    margin: 20px;
+    padding: 35px;
 
   }
   .m-btn{
@@ -175,7 +178,7 @@ header ul .h-t{
   }
   .small-i{
     color: hsl(176, 72%, 28%) ;
-    font-weight: 500;
+    font-weight: bold;
   }
   .small-ia{
     font-size: 14px;
@@ -186,14 +189,53 @@ header ul .h-t{
     border: 2px solid lightgray;
     border-radius: 15px;
     padding: 25px 25px;
+    margin: 20px;
+    padding: 35px;
   }
   .small-j{
     color: hsl(176, 72%, 28%) ;
-    font-weight: 500;
+    font-weight: bold;
   }
   .small-ja{
     font-size: 14px;
     padding-right: 10px;
     color: hsl(0, 0%, 48%);
   }
-  
+  .t-a-3{
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    padding: 25px 25px;
+    margin: 20px;
+    padding: 35px;
+  }
+  .small-k{
+    color: hsl(176, 72%, 28%) ;
+    font-weight: bold;
+  }
+  .small-ka{
+    font-size: 14px;
+    padding-right: 10px;
+    color: hsl(0, 0%, 48%);
+  }
+  .small-kk{
+    color: black;
+    font-weight: bold;
+  }
+  .t-a-4{
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    padding: 25px 25px;
+    opacity: 0.3;
+    margin: 20px;
+    padding: 35px;
+  }
+  .small-l{
+    color: hsl(176, 72%, 28%) ;
+    font-weight: bold;
+   
+  }
+  .small-la{
+    font-size: 14px;
+    padding-right: 10px;
+    color: hsl(0, 0%, 48%);
+  }
