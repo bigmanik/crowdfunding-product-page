@@ -128,12 +128,19 @@ header ul .h-t{
     text-align: center;
     line-height: 20px;
     cursor: pointer;
-    margin-right: 10px;
+    position: absolute;
+
+    /* margin-right: 10px; */
+    
   }
   
   .m-btn.selected {
     background-color: hsl(176, 72%, 28%);
     color: #fff;
+  }
+  .n-btn{
+    position: absolute;
+    left: 55px;
   }
   .modal-a{
     display: none;
@@ -167,22 +174,24 @@ header ul .h-t{
     padding: 25px 25px;
     margin: 20px;
     padding: 35px;
+    height: 130px;
 
   }
-  .m-btn{
-    margin-right: 20px;
-  }
+  
   .small-i{
     color: hsl(176, 72%, 28%) ;
     font-weight: bold;
-    /* margin-bottom: 20%; */
+    
+    
   }
   .small-ia{
     font-size: 14px;
     padding-right: 10px;
     color: hsl(0, 0%, 48%);
-    padding-top: 20px;
-    /* position: relative; */
+    position: absolute;
+    padding-top: 17px;
+    
+   
   }
   .t-a-2{
     border: 2px solid lightgray;
@@ -190,6 +199,7 @@ header ul .h-t{
     padding: 25px 25px;
     margin: 20px;
     padding: 35px;
+    height: 130px;
   }
   .small-j{
     color: hsl(176, 72%, 28%) ;
@@ -199,6 +209,9 @@ header ul .h-t{
     font-size: 14px;
     padding-right: 10px;
     color: hsl(0, 0%, 48%);
+    position: absolute;
+    padding-top: 17px;
+
   }
   .t-a-3{
     border: 2px solid lightgray;
@@ -206,6 +219,7 @@ header ul .h-t{
     padding: 25px 25px;
     margin: 20px;
     padding: 35px;
+    height: 130px;
   }
   .small-k{
     color: hsl(176, 72%, 28%) ;
@@ -215,6 +229,8 @@ header ul .h-t{
     font-size: 14px;
     padding-right: 10px;
     color: hsl(0, 0%, 48%);
+    position: absolute;
+    padding-top: 17px;
   }
   .small-kk{
     color: black;
@@ -227,6 +243,7 @@ header ul .h-t{
     opacity: 0.3;
     margin: 20px;
     padding: 35px;
+    height: 130px;
   }
   .small-l{
     color: hsl(176, 72%, 28%) ;
@@ -237,6 +254,8 @@ header ul .h-t{
     font-size: 14px;
     padding-right: 10px;
     color: hsl(0, 0%, 48%);
+    position: absolute;
+    padding-top: 17px;
   }
 .fig{
     padding-left: 160px;
