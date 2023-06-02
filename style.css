@@ -14,10 +14,9 @@ header{
     width: auto;
     background-image: url( "../resources/image-hero-desktop.jpg");
     background-repeat: no-repeat;
-    /* position: relative; */
+    
     background-size: cover;
-    /* display: flex;
-    justify-content: flex-end; */
+    
     
 
 }
@@ -130,7 +129,7 @@ header ul .h-t{
     cursor: pointer;
     position: absolute;
 
-    /* margin-right: 10px; */
+    
     
   }
   
@@ -138,10 +137,11 @@ header ul .h-t{
     background-color: hsl(176, 72%, 28%);
     color: #fff;
   }
+  
   .n-btn{
     position: absolute;
-    left: 55px;
-  }
+    left: 55px; }
+  
   .modal-a{
     display: none;
     flex-direction: column;
@@ -176,6 +176,18 @@ header ul .h-t{
     padding: 35px;
     height: 130px;
 
+  }
+  .t-a-1.active{
+    border-color:  hsla(176, 72%, 28%, 0.938);
+  }
+  .t-a-2.active{
+    border-color:  hsla(176, 72%, 28%, 0.938);
+  }
+  .t-a-3.active{
+    border-color:  hsla(176, 72%, 28%, 0.938);
+  }
+  .t-a-4.active{
+    border-color:  hsla(176, 72%, 28%, 0.938);
   }
   
   .small-i{
