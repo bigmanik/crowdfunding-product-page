@@ -284,3 +284,77 @@ header ul .h-t{
 .fig-2{
   color:hsl(0, 0%, 48%) ;
 }
+.f-aa{
+  /* border-top: 2px solid hsl(0, 0%, 48%) ; */
+   position: relative;
+   padding-top: 50px;
+   padding-right: 30px;
+   
+
+}
+.f-hr{
+  width: 100%;
+  /* position: relative; */
+
+  
+}
+#f-a{
+ width: 60%;
+ padding: 10px 5px;
+ box-sizing: border-box;
+
+ /* border-top:hsl(0, 0%, 48%) ; */
+ border-top: none;
+ border-bottom: none;
+ border-left-width: 0;
+ border-right-width: 0;
+
+}
+#f-a:focus{
+  outline: none;
+  border-color: initial;
+  box-shadow: none;
+}
+.f-a-z{
+  padding-left:130px ;
+}
+
+  .f-a-btn {
+    min-width: 100px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    /* margin-left: 5px; */
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid hsl(176, 72%, 28%);
+    background: hsl(176, 72%, 28%);
+  }
+  
+.f-a-sp{
+  min-width:70px;
+  height: 35px;
+  padding: 5px 10px;
+  /* margin-right: 5px; */
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  /* position: relative; */
+  position: absolute;
+  left: 65%;
+  display:inline-block;
+  outline: bone;
+  border-radius: 17px ;
+  border: 2px solid   hsl(176, 59%, 63%);
+
+
+}
+.ch{
+  color: hsl(0, 0%, 48%);
+  
+}

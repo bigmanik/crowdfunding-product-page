@@ -1,4 +1,5 @@
 let  borderA = document.querySelectorAll('#border-a' );
+const faA = document.querySelector('.f-aa')
 
 
 const bbA = document.getElementById('mm-btn-1');
@@ -64,7 +65,8 @@ function toggleBookmark() {
  
 bbA.addEventListener('click', ()=>{
   removeActiveClassFromAll()
-  ttA.classList.add('active')
+  ttA.classList.add('active');
+  
   });
 bbB.addEventListener('click', ()=>{
   removeActiveClassFromAll()
@@ -87,6 +89,7 @@ bbC.addEventListener('click', ()=>{
 
     }
 
+    
  
   
 
