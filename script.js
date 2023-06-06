@@ -1,5 +1,9 @@
 let  borderA = document.querySelectorAll('#border-a' );
-const faA = document.querySelector('.f-aa')
+const faA = document.querySelector('.f-aa');
+const faB = document.querySelector('.f-aB');
+const faC = document.querySelector('.f-aC');
+const faD = document.querySelector('.f-aD');
+
 
 
 const bbA = document.getElementById('mm-btn-1');
@@ -65,20 +69,28 @@ function toggleBookmark() {
  
 bbA.addEventListener('click', ()=>{
   removeActiveClassFromAll()
-  ttA.classList.add('active');
+  ttA.classList.add('active')
+  showHideUsersA()
+  growA()
   
   });
 bbB.addEventListener('click', ()=>{
   removeActiveClassFromAll()
 ttB.classList.add('active')
+showHideUsersB()
+growB()
 });
 bbC.addEventListener('click', ()=>{
   removeActiveClassFromAll()
   ttC.classList.add('active')
+  showHideUsersC()
+  growC()
   });
   bbD.addEventListener('click', ()=>{
     removeActiveClassFromAll()
     ttD.classList.add('active')
+    showHideUsersD()
+    growD()
     });
 
     function removeActiveClassFromAll() {
@@ -87,8 +99,41 @@ bbC.addEventListener('click', ()=>{
       element.classList.remove('active')
     })
 
-    }
+    };
 
+     function showHideUsersA() {
+      faA.style.display="block"
+    };
+    function showHideUsersB() {
+      faB.style.display="block"
+    };
+    function showHideUsersC() {
+      faC.style.display="block"
+    };
+    function showHideUsersD() {
+      faD.style.display="block"
+    };
+
+   function growA(){
+    const currentHeight = ttA.offsetHeight;
+    const newHeight = currentHeight + 65;
+    ttA.style.height = newHeight + "px";
+   };
+   function growB(){
+    const currentHeight = ttA.offsetHeight;
+    const newHeight = currentHeight + 65;
+    ttB.style.height = newHeight + "px";
+   };
+   function growC(){
+    const currentHeight = ttA.offsetHeight;
+    const newHeight = currentHeight + 65;
+    ttC.style.height = newHeight + "px";
+   };
+   function growD(){
+    const currentHeight = ttA.offsetHeight;
+    const newHeight = currentHeight + 65;
+    ttD.style.height = newHeight + "px";
+   }
     
  
   

@@ -175,6 +175,7 @@ header ul .h-t{
     margin: 20px;
     padding: 35px;
     height: 130px;
+    
 
   }
   .t-a-1.active{
@@ -285,25 +286,40 @@ header ul .h-t{
   color:hsl(0, 0%, 48%) ;
 }
 .f-aa{
-  /* border-top: 2px solid hsl(0, 0%, 48%) ; */
+    display: none;
    position: relative;
    padding-top: 50px;
-   padding-right: 30px;
+   padding-right: 30px; 
    
-
 }
+.f-aB{
+  display: none;
+  position: relative;
+  padding-top: 50px;
+  padding-right: 30px; 
+}
+.f-aC{
+  display: none;
+  position: relative;
+  padding-top: 50px;
+  padding-right: 30px; 
+}
+.f-aD{
+  display: none;
+  position: relative;
+  padding-top: 50px;
+  padding-right: 30px; 
+}
+
 .f-hr{
   width: 100%;
-  /* position: relative; */
-
+  margin-top: 20px;
   
 }
 #f-a{
  width: 60%;
- padding: 10px 5px;
+ padding: 25px 5px;
  box-sizing: border-box;
-
- /* border-top:hsl(0, 0%, 48%) ; */
  border-top: none;
  border-bottom: none;
  border-left-width: 0;
@@ -324,7 +340,7 @@ header ul .h-t{
     height: 40px;
     color: #fff;
     padding: 5px 10px;
-    /* margin-left: 5px; */
+    margin-top: 10px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -340,11 +356,10 @@ header ul .h-t{
   min-width:70px;
   height: 35px;
   padding: 5px 10px;
-  /* margin-right: 5px; */
+  margin-top: 10px;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
-  /* position: relative; */
   position: absolute;
   left: 65%;
   display:inline-block;
