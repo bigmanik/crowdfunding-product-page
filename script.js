@@ -70,27 +70,37 @@ function toggleBookmark() {
 bbA.addEventListener('click', ()=>{
   removeActiveClassFromAll()
   ttA.classList.add('active')
-  showHideUsersA()
+  shrink()
+  hideUsers()
+  showUsersA()
   growA()
   
   });
 bbB.addEventListener('click', ()=>{
   removeActiveClassFromAll()
 ttB.classList.add('active')
-showHideUsersB()
+shrink()
+hideUsers()
+showUsersB()
 growB()
 });
 bbC.addEventListener('click', ()=>{
   removeActiveClassFromAll()
   ttC.classList.add('active')
-  showHideUsersC()
+  shrink()
+  hideUsers()
+  showUsersC()
   growC()
+ 
   });
   bbD.addEventListener('click', ()=>{
     removeActiveClassFromAll()
     ttD.classList.add('active')
-    showHideUsersD()
+    shrink()
+    hideUsers()
+    showUsersD()
     growD()
+   
     });
 
     function removeActiveClassFromAll() {
@@ -101,16 +111,16 @@ bbC.addEventListener('click', ()=>{
 
     };
 
-     function showHideUsersA() {
+     function showUsersA() {
       faA.style.display="block"
     };
-    function showHideUsersB() {
+    function showUsersB() {
       faB.style.display="block"
     };
-    function showHideUsersC() {
+    function showUsersC() {
       faC.style.display="block"
     };
-    function showHideUsersD() {
+    function showUsersD() {
       faD.style.display="block"
     };
 
@@ -133,7 +143,24 @@ bbC.addEventListener('click', ()=>{
     const currentHeight = ttA.offsetHeight;
     const newHeight = currentHeight + 65;
     ttD.style.height = newHeight + "px";
-   }
+   };
+   function shrink(){
+   borderA.forEach(div => {
+    const realHeight = div.style.height;
+    if(div.offsetHeight < 130 ){
+     const  originHeight = realHeight - 70;
+     div.style.height = originHeight + "px"
+      // div.style.height = realHeight + "px" ;
+    }
+   });
+     };
+     function hideUsers(){
+      const vanish = document.querySelectorAll('#f-q');
+      vanish.forEach(van =>{
+         van.style.display = "none";
+      })
+     }
+   
     
  
   
