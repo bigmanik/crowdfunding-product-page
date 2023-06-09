@@ -16,6 +16,10 @@ const ttB = document.querySelector('.t-a-2');
 const ttC = document.querySelector('.t-a-3');
 const ttD = document.querySelector('.t-a-4');
 
+const openThr = document.querySelectorAll('.f-a-btn');
+const closeThr = document.querySelector('.thr-btn');
+const  modalThr = document.querySelector('.thr');
+
 function toggleBookmark() {
     const bookmarkButton = document.getElementById('bookmark-button');
     const bookmarkIcon = document.getElementById('circle-id');
@@ -147,10 +151,10 @@ bbC.addEventListener('click', ()=>{
    function shrink(){
    borderA.forEach(div => {
     const realHeight = div.style.height;
-    if(div.offsetHeight < 130 ){
+    if(div.offsetHeight > 120 ){
      const  originHeight = realHeight - 70;
      div.style.height = originHeight + "px"
-      // div.style.height = realHeight + "px" ;
+      
     }
    });
      };
@@ -159,9 +163,21 @@ bbC.addEventListener('click', ()=>{
       vanish.forEach(van =>{
          van.style.display = "none";
       })
-     }
+     };
    
-    
+    //  openThr.addEventListener('click', ()=>{
+    //   modalThr.showModal()
+    // });
+    openThr.forEach(button=>{
+      button.addEventListener('click', ()=>{
+        modalThr.showModal()
+        modal.close()
+        modal.style.display ="none"
+      });
+    });
+    closeThr.addEventListener('click', ()=>{
+      modalThr.close()
+    })
  
   
 
