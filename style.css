@@ -496,4 +496,32 @@ margin-top: 20px;
   background-color: hsl(176, 72%, 28%);
   border-radius: 1em;
  }
+ .abt-m{
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  top: -5px;
+  width:700px;
+  height: 50em;
+  background-color: white;
+  position: relative;
+  margin-left: 23%;
+  border: 5px solid transparent;
+  border-radius: 15px;
+ }
+ .abt-h{
+  margin-top: 40px;
+ }
+ .abt-s{
+  position: absolute;
+  top: 13%;
+  color: hsl(0, 0%, 48%);
+ }
+ .abt-sA{
+  top: 150%;
+  position: absolute;
+ }
 
