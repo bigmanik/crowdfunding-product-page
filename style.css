@@ -414,3 +414,86 @@ header ul .h-t{
   border: 2px solid hsl(176, 72%, 28%);
   background: hsl(176, 72%, 28%);
 }
+.box-b{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  top: -35px;
+  width:700px;
+  height: 170px;
+  background-color: white;
+  position: relative;
+  margin-left: 23%;
+  border: 5px solid transparent;
+  border-radius: 15px;
+}
+.box-bAi{
+  font-size: 27px;
+margin-top: 20px;
+
+}
+.box-bAii{
+  font-size: 27px;
+margin-top: 20px;
+margin-left: 12%;
+
+}
+.box-bAiii {
+  font-size: 27px;
+margin-top: 20px;
+
+}
+
+.box-bB{
+  font-size: 12px;
+  font-weight: 500;
+  color:hsl(0, 0%, 48%) ;
+  margin-top: 60px;
+  position: absolute;
+ left: 38px;
+}
+.box-bc{
+  font-size: 12px;
+  font-weight: 500;
+  color:hsl(0, 0%, 48%) ;
+  margin-top: 60px;
+  position: inherit;
+  right: 120px;
+}
+.box-bd{
+  font-size: 12px;
+  font-weight: 500;
+  color:hsl(0, 0%, 48%) ;
+  margin-top: 60px;
+  position: inherit;
+  right: 80px;
+  
+}
+.v-hr{
+  height: 40%;
+  margin-top: 4%;
+}
+ .p-bar{
+  margin-top: 18%;
+  position: absolute;
+  width: 80%;
+  height: 1em;
+  background-color:lightgray ;
+  border-radius: 1.5em;
+  color:transparent ;
+ }
+ .p-bar::before{
+  content: attr(data-label);
+  display: flex;
+  align-items: center;
+  height: 1em;
+  width: calc(var(--width, 0) * 1%);
+  min-width: 2rem;
+  max-width: calc(100% - 1em);
+  background-color: hsl(176, 72%, 28%);
+  border-radius: 1em;
+ }
+
