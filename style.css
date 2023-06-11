@@ -505,7 +505,7 @@ margin-top: 20px;
   padding-right: 40px;
   top: -5px;
   width:700px;
-  height: 50em;
+  height: 65em;
   background-color: white;
   position: relative;
   margin-left: 23%;
@@ -517,11 +517,88 @@ margin-top: 20px;
  }
  .abt-s{
   position: absolute;
-  top: 13%;
+  top: 8%;
   color: hsl(0, 0%, 48%);
  }
  .abt-sA{
   top: 150%;
   position: absolute;
  }
-
+.reward-1{
+  border: 2px solid lightgray;
+  border-radius: 15px;
+  padding: 35px;
+  height: 14em;
+  position: relative;
+  margin-top: -400px;
+  
+}
+.te{
+  white-space: pre;
+  tab-size: 8;
+}
+.reward-hA{
+  font-weight: bold;
+  font-size: large;
+}
+.reward-hB{
+  position: absolute;
+  right: 10%;
+  color:hsl(176, 72%, 28%) ;
+  font-weight: bold;
+}
+.reward-hC{
+  position: absolute;
+  top: 35%;
+  color: hsl(0, 0%, 48%);
+  font-size: 15px;
+}
+  
+.r-d{
+  position: absolute;
+  top: 75%;
+}
+.reward-hD{
+  font-weight: bold;
+  font-size: larger;
+}
+.reward-hDd{
+  color:hsl(0, 0%, 48%) ;
+  font-size: small;
+}
+.reward-btn{
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 65%;
+  left: 75%;
+  display: inline-block;
+  outline: none;
+  border-radius: 25px;
+  border: 2px solid  hsl(176, 72%, 28%);
+  background: hsl(176, 72%, 28%);
+  
+}
+.reward-2{
+  border: 2px solid lightgray;
+  border-radius: 15px;
+  padding: 35px;
+  height: 14em;
+  position: relative;
+  margin-top: -280px;
+}
+.reward-3{
+  border: 2px solid lightgray;
+  border-radius: 15px;
+  opacity: 0.3;
+  padding: 35px;
+  height: 14em;
+  position: relative;
+  margin-top: -280px;
+}
