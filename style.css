@@ -78,6 +78,23 @@ header ul .h-t{
     background: #fff;
     color: hsl(176, 72%, 28%);
   }
+  .toggle-btn{
+    position: absolute;
+    top: 1.5rem;
+    right: .08rem;
+    margin-right: 5%;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  .toggle-btn .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
    
 .box-a{
     display: flex;
@@ -601,4 +618,46 @@ margin-top: 20px;
   height: 14em;
   position: relative;
   margin-top: -280px;
+}
+
+@media (max-width: 414px) {
+   header{
+    /* height: 30%; */
+    width: 100%;
+    background-size: 414px;
+    background-repeat: no-repeat;
+   }
+   .toggle-btn{
+    display: flex;
+   }
+   header ul .h-t {
+    position: absolute;
+    display: none;
+}
+header ul #logo{
+  padding-left: 5%;
+}
+.box-a{
+  top: -240px;
+  margin-left:5%;
+  width: 370px;
+}
+.btn-a{
+  min-width: 230px;
+  margin-right: 10px;
+}
+.btn-b{
+  display: none;
+}
+.mo-t{
+  margin-left: 35px;
+}
+.modal-a{
+  margin-left: 0px;
+  margin-top: 100px;
+}
+.t-a-1{
+  height: 10rem;
+}
+
 }
