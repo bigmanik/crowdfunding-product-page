@@ -210,9 +210,10 @@ header ul .h-t{
   
   .small-i{
     color: hsl(176, 72%, 28%) ;
-    font-weight: bold;
-    
-    
+    font-weight: bold;   
+  }
+  .small-iz{
+    color: black;
   }
   .small-ia{
     font-size: 14px;
@@ -234,6 +235,9 @@ header ul .h-t{
   .small-j{
     color: hsl(176, 72%, 28%) ;
     font-weight: bold;
+  }
+  .small-jz{
+    color: black;
   }
   .small-ja{
     font-size: 14px;
@@ -279,6 +283,9 @@ header ul .h-t{
     color: hsl(176, 72%, 28%) ;
     font-weight: bold;
    
+  }
+  .small-lz{
+    color: black;
   }
   .small-la{
     font-size: 14px;
@@ -655,9 +662,107 @@ header ul #logo{
 .modal-a{
   margin-left: 0px;
   margin-top: 100px;
+  max-height: 500rem;
 }
 .t-a-1{
-  height: 10rem;
+  height: 13rem;
+  width: 17em;
+}
+.small-ia{
+  width: 14rem;
+}
+.t-a-2{
+  height: 16rem;
+  width: 17em;
+}
+.small-ja{
+  width: 14rem;
+  padding-top: 0px;
+}
+.small-jz{
+  padding-right:30% ;
+}
+.fig{
+  position: relative;
+}
+.fig-a{
+  position: relative;
+}
+.fig-b{
+  position: relative;
+}
+#fig-1a{
+  position: relative;
+  top: 80%;
+  right: 80%;
+}
+#fig-2a{
+  position: relative;
+  top: 70%;
+  right: -17%;
 }
 
+.t-a-3{
+  height: 17rem;
+  width: 17em;
+}
+.t-a-4{
+  height: 16rem;
+  width: 17em;
+}
+#fig-1b{
+  position: relative;
+  top: 80%;
+  right: 60%;
+}
+#fig-2b{
+  position: relative;
+top: 80%;
+  right: 59%;
+}
+.small-ka{
+  position: relative;
+  padding-top: 0px;
+}
+.small-la{
+  position: relative;
+  padding-top: 0px;
+}
+#fig-1c{
+  position: relative;
+  top: 80%;
+  right: 40%;
+}
+#fig-2c{
+  position: relative;
+top: 80%;
+  right: 39%;
+}
+.f-aa{
+  padding-top: 50%;
+  padding-right: 30px;
+}
+#f-a{
+  width: 100%;
+}
+.f-a-btn{
+  min-width: 90px;
+  margin-top: -25%;
+}
+.f-aB{
+  padding-top: 50%;
+  padding-right: 30px;
+}
+#f-a{
+  width: 100%;
+}
+.f-a-btn{
+  min-width: 90px;
+  margin-top: -25%;
+}
+.f-hr {
+  width: 230px;
+  margin-top: 30px;
+}
+    
 }
