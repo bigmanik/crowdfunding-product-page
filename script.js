@@ -183,8 +183,93 @@ bbC.addEventListener('click', ()=>{
     const computedStyle = getComputedStyle(progressBar)
     const width = parseFloat(computedStyle.getPropertyValue('--width')) || 0
     progressBar.style.setProperty('--width', width + .1)
-   }, 5)
- 
+   }, 5);
+    
+
+   function growAWe(){
+    const currentHeight = ttA.offsetHeight;
+    const newHeight = currentHeight + 7;
+    ttA.style.height = newHeight + "rem";
+   };
+   function growBWe(){
+    const currentHeight = ttA.offsetHeight;
+    const newHeight = currentHeight + 7;
+    ttB.style.height = newHeight + "rem";
+   };
+   function growCWe(){
+    const currentHeight = ttA.offsetHeight;
+    const newHeight = currentHeight + 7;
+    ttC.style.height = newHeight + "rem";
+   };
+   function growDWe(){
+    const currentHeight = ttA.offsetHeight;
+    const newHeight = currentHeight + 7;
+    ttD.style.height = newHeight + "rem";
+   };
+ function shrinkWe(){
+   borderA.forEach(div => {
+    const realHeight = div.style.height;
+    if(div.offsetHeight > 120 ){
+     const  originHeight = realHeight - 8;
+     div.style.height = originHeight + "rem"
+      
+    }
+   });
+     };
+
+
+   function checkScreenSize() {
+    if (window.innerWidth <= 414 && window.innerHeight <= 915) {
+        // increaseContainerSize();
+        bbA.addEventListener('click', ()=>{
+          removeActiveClassFromAll()
+          ttA.classList.add('active')
+          shrinkWe()
+          hideUsers()
+          showUsersA()
+          growAWe()
+          
+          });
+        bbB.addEventListener('click', ()=>{
+          removeActiveClassFromAll()
+        ttB.classList.add('active')
+        shrinkWe()
+        hideUsers()
+        showUsersB()
+        growBWe()
+        });
+        bbC.addEventListener('click', ()=>{
+          removeActiveClassFromAll()
+          ttC.classList.add('active')
+          shrinkWe()
+          hideUsers()
+          showUsersC()
+          growCWe()
+         
+          });
+          bbD.addEventListener('click', ()=>{
+            removeActiveClassFromAll()
+            ttD.classList.add('active')
+            shrinkWe()
+            hideUsers()
+            showUsersD()
+            growDWe()
+           
+            });
+        
+            function removeActiveClassFromAll() {
+        
+            borderA.forEach((element)=>{
+              element.classList.remove('active')
+            })
+        
+            };
+        
+
+    }
+}
+
+window.addEventListener('resize', checkScreenSize);
   
 
   
