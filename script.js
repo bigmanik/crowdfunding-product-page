@@ -188,22 +188,22 @@ bbC.addEventListener('click', ()=>{
 
    function growAWe(){
     const currentHeight = ttA.offsetHeight;
-    const newHeight = currentHeight + 7;
+    const newHeight = currentHeight + 4;
     ttA.style.height = newHeight + "rem";
    };
    function growBWe(){
     const currentHeight = ttA.offsetHeight;
-    const newHeight = currentHeight + 7;
+    const newHeight = currentHeight + 4;
     ttB.style.height = newHeight + "rem";
    };
    function growCWe(){
     const currentHeight = ttA.offsetHeight;
-    const newHeight = currentHeight + 7;
+    const newHeight = currentHeight + 4;
     ttC.style.height = newHeight + "rem";
    };
    function growDWe(){
     const currentHeight = ttA.offsetHeight;
-    const newHeight = currentHeight + 7;
+    const newHeight = currentHeight + 4;
     ttD.style.height = newHeight + "rem";
    };
  function shrinkWe(){

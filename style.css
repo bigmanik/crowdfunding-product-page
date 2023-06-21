@@ -629,7 +629,7 @@ margin-top: 20px;
 
 @media (max-width: 414px) {
    header{
-    /* height: 30%; */
+    
     width: 100%;
     background-size: 414px;
     background-repeat: no-repeat;
