@@ -635,12 +635,26 @@ margin-top: 20px;
     background-repeat: no-repeat;
    }
    .toggle-btn{
-    display: flex;
+     display: flex; 
    }
    header ul .h-t {
-    position: absolute;
-    display: none;
+    position: relative;
+    /* display: none; */
+    left: 30px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
 }
+/* #h-q{
+  color: black;
+}
+#h-w{
+  color: black;
+}
+#h-e{
+  color: black;
+} */
 header ul #logo{
   padding-left: 5%;
 }
