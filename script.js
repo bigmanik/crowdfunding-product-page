@@ -167,9 +167,7 @@ bbC.addEventListener('click', ()=>{
       })
      };
    
-    //  openThr.addEventListener('click', ()=>{
-    //   modalThr.showModal()
-    // });
+    
     openThr.forEach(button=>{
       button.addEventListener('click', ()=>{
         modalThr.showModal()
@@ -222,7 +220,7 @@ bbC.addEventListener('click', ()=>{
 
    function checkScreenSize() {
     if (window.innerWidth <= 414 && window.innerHeight <= 915) {
-        // increaseContainerSize();
+        
         bbA.addEventListener('click', ()=>{
           removeActiveClassFromAll()
           ttA.classList.add('active')
