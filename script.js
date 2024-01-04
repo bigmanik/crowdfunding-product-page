@@ -20,6 +20,8 @@ const openThr = document.querySelectorAll('.f-a-btn');
 const closeThr = document.querySelector('.thr-btn');
 const  modalThr = document.querySelector('.thr');
 
+const resTn = document.querySelector('.toggle-btn')
+
 function toggleBookmark() {
     const bookmarkButton = document.getElementById('bookmark-button');
     const bookmarkIcon = document.getElementById('circle-id');
@@ -268,6 +270,7 @@ bbC.addEventListener('click', ()=>{
 
     }
 }
+
 
 window.addEventListener('resize', checkScreenSize);
   

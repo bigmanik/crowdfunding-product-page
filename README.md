@@ -4,18 +4,35 @@ This is a solution to the [Crowdfunding product page challenge on Frontend Mento
 
 ## Table of contents
 
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-  - [Screenshot]
-  - [Links]
-- [My process]
-  - [Built with]
-  
- 
 
 
 
+## Overview
 
-![site image](./resources/crowdscreen.png)
+
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+- Make a selection of which pledge to make
+- See an updated progress bar and total money raised based on their pledge total after confirming a pledge
+- See the number of total backers increment by one after confirming a pledge
+- Toggle whether or not the product is bookmarked
+
+### Screenshot
+
+![crowdfunding-prouct-page](./resources/crowdscreen.png)
+
 
 
 ### Links
@@ -27,17 +44,23 @@ This is a solution to the [Crowdfunding product page challenge on Frontend Mento
 
 ### Built with
 
--  HTML5 
-- CSS 
-- javascript
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- Vanilla JavaScript
+- [Styled Components](https://styled-components.com/) - For styles
+
+
+### Continued development
+
+Areas I would wish to work on include building a more mobile-friendly site. I had a lot of issues making the site responsive, and I would also continue to work on my JavaScript.
 
 
 
-## Author
 
-
-- Twitter - [@yourusername](https://www.twitter.com/ikigbinomwanhia)
-
+- Frontend Mentor - [@bigmanik](https://www.frontendmentor.io/profile/bigmanik)
+- Twitter[X] - [@ikgbinomwanhia](https://www.twitter.com/ikigbinomwanhia)
 
 
 

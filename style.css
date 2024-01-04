@@ -37,7 +37,7 @@ header ul{
 
 }
 header li a{
-    display: block;
+    display: flex;
     padding: 25px; 
     float: right;
     text-decoration: none;
@@ -637,24 +637,38 @@ margin-top: 20px;
    .toggle-btn{
      display: flex; 
    }
-   header ul .h-t {
-    position: relative;
-    /* display: none; */
-    left: 30px;
+   
+   
+   
+ .barnav{
+  display: none;
+  }  
+  /* .miniBar{
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    
+    align-items: start;
+
+
+  }
+.mbu{
+  
+  flex-direction: column;
 }
-/* #h-q{
-  color: black;
-}
-#h-w{
-  color: black;
-}
-#h-e{
+.mbu li{
+  text-align: center;
   color: black;
 } */
+.omo{
+  height: 30vh;
+  width: 15em;
+  background-color: white;
+  border: 5px;
+  border-radius: 10%;
+  z-index: 4;
+  margin-top: 10%;
+  margin-left: 25%;
+
+}
 header ul #logo{
   padding-left: 5%;
 }
